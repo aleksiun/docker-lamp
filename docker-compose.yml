@@ -2,7 +2,7 @@ version: "3.7"
 services:
   web-server:
     build:
-      dockerfile: ./configs/php.Dockerfile
+      dockerfile: ./configs/php8.Dockerfile
       context: .
     restart: always
     volumes:
